@@ -11,3 +11,9 @@ n=int(input("\n Ingrese la cantidad de enteros a sumar "))
 i=1
 s=0
 
+while i<=n:
+    s=s+i 
+    i=i+1
+
+print("\nLa suma de los "+str(n)+" numeros enteros es: "+str(s))
+print(" ")
