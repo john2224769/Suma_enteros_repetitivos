@@ -14,6 +14,6 @@ s=0
 while i<=n:
     s=s+i 
     i=i+1
-
+# output 
 print("\nLa suma de los "+str(n)+" numeros enteros es: "+str(s))
 print(" ")
